@@ -1,0 +1,35 @@
+Jenkins Q and A:
+======================================================================================================================================
+what is Jenkins:
+----------------------
+Jenkins is an open-source automation tool written in Java with plugins built for Continuous Integration purposes. 
+Jenkins is used to build and test your software projects continuously making it easier for developers to integrate changes to the project,
+ and making it easier for users to obtain a fresh build.
+======================================================================================================================================
+what is the default port for jenkins and how to change it:
+-------------------------------------
+8080 is the default port for jenkins, under /etc/sysconfig edit jenkins.xml file the –httpPort argument
+=================================================================================================================================
+folders created after installing jenkins:
+-----------------------------------------
+nodes, logs, usercontent, workflowlibs, users, jobs, finger prints, secrets, tools, caches, workspace, plugins, updates
+======================================================================================================================================
+how to configure webhooks for jenkins:
+-------------------------------------
+
+got to repo>settings>webhooks> give jenkins url with github-webhook/
+
+go to jenkins job > source code management > repository url> GitHub hook trigger for GITScm polling
+
+======================================================================================================================================
+
+how many ways we can trigger jenkins:
+------------------------------------
+trigger builds remotely
+build after other projects are build
+build periodically 
+GitHub hook trigger for GITScm polling
+Poll SCM
+=========================================================================================================================================
+what is master slave configuration:
+
